@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+<body>
+    <div class="main">
+        <div class="view">
+            <div class="add">
+                <div class="heading">
+                    <h1>Grocery List</h1>
+                </div>
+                <div class="search">
+                    <input type="text" placeholder="e.g oil" id="input" required>
+                    <button id="btn" class="add_btn">Add</button>
+                    <button id="save" class="edit">Save</button>
+
+                </div>
+                <input type="hidden" id="indexInput">
+            </div>
+
+            <div class="display">
+                <table class="table table-striped" id="table">
+
+                </table>
+                <!-- <div class="list">
+                    <h4>hello</h4>
+                </div>
+                <div class="operation">
+                    <div class="edit"><i class="bi bi-pencil-square"></i></div>
+                    <div class="delete"><i class="bi bi-trash"></i></div>
+                </div> -->
+            </div>
+        </div>
+        
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>
